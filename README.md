@@ -426,6 +426,8 @@ The functions are intentionally sequence-order aware, not value-sorted — `pred
 They model interactive terminal sessions where the user is expected to retry. Exceptions are the right tool when the caller decides retry logic — looping is the right tool when the user does.
 
 ---
+> [!WARNING]
+> I had build this library while learning python years ago. It was my way of learning. Keep in mind I might not able to maintain it frequently. It was part of a fun learning for me.
 
 ## License
 
