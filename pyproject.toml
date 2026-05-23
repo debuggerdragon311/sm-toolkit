@@ -1,0 +1,17 @@
+[build-system]
+requires      = ["setuptools>=68"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name        = "sm-toolkit"
+version     = "0.1.0"
+description = "A zero-dependency Python utility library for arithmetic, search, arrays, patterns and I/O."
+readme      = "README.md"
+license     = { text = "MIT" }
+authors     = [{ name = "Soumyajit Bala", email = "soumyajit@zelkyr.dev" }]
+keywords    = ["utilities", "arithmetic", "search", "toolkit"]
+requires-python = ">=3.10"
+
+[project.urls]
+Homepage   = "https://github.com/debuggerdragon311/sm-toolkit/"
+Repository = "https://github.com/debuggerdragon311/sm-toolkit/"
