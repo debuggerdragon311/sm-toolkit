@@ -1,5 +1,12 @@
 # sm-toolkit --> personal utility library
 
+# meta-data
+__version__   = "0.1.0"
+__author__    = "Soumyajit Bala"
+__email__     = "soumyajit@zelkyr.dev"
+__license__   = "MIT"
+__description__ = "A zero-dependency Python utility library for arithmetic, search, arrays, patterns and I/O."
+
 from .arith   import calc, factorial, fibo
 from .search  import binary_search, linear_search
 from .array   import count_occurrences, predecessor, successor
